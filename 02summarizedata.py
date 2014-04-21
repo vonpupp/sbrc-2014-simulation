@@ -106,3 +106,4 @@ if __name__ == "__main__":
                 d.csv_write()
             p.set_data(per_algoritm_summary)
             p.plot_all_algorithm_comparison(host, trace)
+            p.plot_all_confidence_interval_comparison(trace)
